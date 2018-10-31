@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TabPageView">
+        <attr name="tabPage_tabPosition" format="enum">
+            <enum name="TOP" value="0" />
+            <enum name="BOTTOM" value="1" />
+        </attr>
+        <!--指示器颜色-->
+        <attr name="tabPage_tabPageIndicatorColor" format="color"/>
+        <!--指示器颜色-->
+        <attr name="tabPage_tabPageIndicatorHeight" format="dimension"/>
+        <!--tab栏字体颜色-->
+        <attr name="tabPage_tabPageTextColor" format="color" />
+        <!--tab栏字体被选颜色-->
+        <attr name="tabPage_tabSelectedTextColor" format="color" />
+        <!--tab栏背景颜色-->
+        <attr name="tabPage_tabBackground" format="color" />
+        <!--viewPage可否滑动-->
+        <attr name="tabPage_viewPageCanScroll" format="boolean" />
+
+        <attr name="tabPage_tabMode" format="enum">
+            <enum name="MODE_SCROLLABLE" value="0" />
+            <enum name="MODE_FIXED" value="1" />
+        </attr>
+
+        <attr name="tabPage_tabGravity" format="enum">
+            <enum name="GRAVITY_FILL" value="0" />
+            <enum name="GRAVITY_CENTER" value="1" />
+        </attr>
+        <!--viewPage缓存数量-->
+        <attr name="tabPage_viewPageOffscreenLimit" format="integer" />
+        <attr name="tabPage_tabCustomView" format="reference" />
+        <!--viewPage滑动是否显示阴影-->
+        <attr name="tabPage_overScrollModeShow" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
